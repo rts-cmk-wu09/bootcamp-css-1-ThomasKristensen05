@@ -1,0 +1,37 @@
+* {
+    background-color: beige;
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    color: grey;
+}
+
+.li-1 {
+    padding-bottom: 4em;
+}
+
+.li-2 {
+    position: absolute;
+    top: 5.9em;
+    left: 5em;
+}
+
+li:nth-child(3) {
+    border: orange 1px solid;
+}
+
+/* jeg har brugt position absolute fordi det tar lidt flere steps for at gøre sådan en enkel ting,
+ og det kan ødelægge positionen af andre på ting siden */
+
+li:list:hover {
+    font-size: 20px;
+}
+
+.r34 {
+    height: 20em;
+}
